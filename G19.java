@@ -19,6 +19,11 @@ public class G19 {
     	//Create a new cipher using the shifter(#) method
     	//Encrypt and decrypt a message with your new cipher
 
+		goofyCipher cipher = new goofyCipher(5);
+
+		System.out.println(cipher.encrypt("Golden Gooner"));
+		System.out.println(cipher.decrypt("gul ber il"))
+
     }
 
 
